@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.tests.ValidDetails">
+        <methods>
+          <include name="UrlTesting"/>
+          <include name="testValidDetails"/>
+          <include name="testGetTopCities"/>
+          <include name="invalidDetails4"/>
+          <include name="closeBrowser"/>
+          <include name="testCondition"/>
+          <include name="testDisplayError3"/>
+          <include name="testDisplayError2"/>
+          <include name="testcWellnessPage"/>
+          <include name="testDisplayError4"/>
+          <include name="testFilter"/>
+          <include name="testDiagnosticspage"/>
+          <include name="testDisplayTopCities"/>
+          <include name="createExcel"/>
+          <include name="setUp"/>
+          <include name="invalidDetails3"/>
+          <include name="testDisplayError1"/>
+          <include name="invalidDetails1"/>
+          <include name="invalidDetails2"/>
+          <include name="testFilterButton"/>
+          <include name="testHospsWithRatings"/>
+          <include name="testScroll"/>
+        </methods>
+      </class> <!-- com.selenium.tests.ValidDetails -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
