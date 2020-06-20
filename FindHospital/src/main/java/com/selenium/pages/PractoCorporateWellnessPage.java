@@ -97,7 +97,6 @@ public void invalidDetails1(String name,String company,String email,String phone
 		driver.findElement(By.xpath("//input[@id='official_email_id']")).sendKeys(email);
 		driver.findElement(By.xpath("//input[@id='official_phone_no']")).clear();
 		driver.findElement(By.xpath("//input[@id='official_phone_no']")).sendKeys(phone);
-		System.out.println(phone);
 	}
 	
 	//clicking submit and printing error message
@@ -121,7 +120,6 @@ public void invalidDetails1(String name,String company,String email,String phone
 		driver.findElement(By.xpath("//input[@id='official_email_id']")).sendKeys(email);
 		driver.findElement(By.xpath("//input[@id='official_phone_no']")).clear();
 		driver.findElement(By.xpath("//input[@id='official_phone_no']")).sendKeys(phone);
-		System.out.println(phone);
 	}
 	
 	//clicking submit and printing error message

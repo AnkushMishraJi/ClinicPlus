@@ -44,6 +44,7 @@
           <include name="testScroll"/>
           <include name="invalidDetails2"/>
           <include name="testGetTopCities"/>
+          <include name="testWriteExcelData"/>
           <include name="testDisplaySuccessMessage"/>
           <include name="tearDown"/>
           <include name="tearDown"/>

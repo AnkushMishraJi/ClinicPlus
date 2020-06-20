@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 23 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 24 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">69 methods, 23 failed,   46 passed</span>
+                    <span class="method-stats">72 methods, 24 failed,   48 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -205,6 +205,11 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="com.selenium.tests.TestBase" class="method navigator-link" hash-for-method="testValidDetails">testValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.selenium.tests.TestBase" class="method navigator-link" hash-for-method="testWriteExcelData">testWriteExcelData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -438,6 +443,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.selenium.tests.TestBase" class="method navigator-link" hash-for-method="testWriteExcelData">testWriteExcelData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.selenium.tests.TestBase" class="method navigator-link" hash-for-method="testWriteExcelData">testWriteExcelData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="com.selenium.tests.TestBase" class="method navigator-link" hash-for-method="testcWellnessPage">testcWellnessPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -488,7 +503,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
 	at com.selenium.setup.UrlSetup.Url(UrlSetup.java:18)
-	at com.selenium.tests.TestBase.UrlTesting(TestBase.java:99)
+	at com.selenium.tests.TestBase.UrlTesting(TestBase.java:97)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -504,7 +519,7 @@ Driver info: driver.version: RemoteWebDriver
                   </a> <!-- displayErrorInvalidName -->
                   <span class="method-name">displayErrorInvalidName</span>
                   <div class="stack-trace">java.lang.AssertionError: Invalid Name test case Passed expected [Please Enter Name] but found [Thanks, for showing We have received your request, our team will contact you shortly.]
-	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:268)
+	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:266)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -530,8 +545,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.selenium.pages.PractoCorporateWellnessPage.getNameErrorMessage(PractoCorporateWellnessPage.java:130)
-	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:267)
+	at com.selenium.pages.PractoCorporateWellnessPage.getNameErrorMessage(PractoCorporateWellnessPage.java:128)
+	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:265)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -547,7 +562,7 @@ Driver info: driver.version: RemoteWebDriver
                   </a> <!-- displayErrorInvalidName -->
                   <span class="method-name">displayErrorInvalidName</span>
                   <div class="stack-trace">java.lang.AssertionError: Invalid Name test case Passed expected [Please Enter Name] but found [Thanks, for showing We have received your request, our team will contact you shortly.]
-	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:268)
+	at com.selenium.tests.TestBase.displayErrorInvalidName(TestBase.java:266)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -573,8 +588,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.selenium.pages.PractoCorporateWellnessPage.validDetails6(PractoCorporateWellnessPage.java:116)
-	at com.selenium.tests.TestBase.inValidName(TestBase.java:260)
+	at com.selenium.pages.PractoCorporateWellnessPage.validDetails6(PractoCorporateWellnessPage.java:115)
+	at com.selenium.tests.TestBase.inValidName(TestBase.java:258)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -601,7 +616,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.invalidDetails2(PractoCorporateWellnessPage.java:35)
-	at com.selenium.tests.TestBase.invalidDetails2(TestBase.java:197)
+	at com.selenium.tests.TestBase.invalidDetails2(TestBase.java:195)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -628,7 +643,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.invalidDetails3(PractoCorporateWellnessPage.java:52)
-	at com.selenium.tests.TestBase.invalidDetails3(TestBase.java:213)
+	at com.selenium.tests.TestBase.invalidDetails3(TestBase.java:211)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -655,7 +670,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.invalidDetails4(PractoCorporateWellnessPage.java:71)
-	at com.selenium.tests.TestBase.invalidDetails4(TestBase.java:230)
+	at com.selenium.tests.TestBase.invalidDetails4(TestBase.java:228)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -682,7 +697,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoSearchHospitalsPage.setCondition(PractoSearchHospitalsPage.java:24)
-	at com.selenium.tests.TestBase.testCondition(TestBase.java:116)
+	at com.selenium.tests.TestBase.testCondition(TestBase.java:114)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -709,7 +724,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoDiagnosticsPage.DiagnosticsPage(PractoDiagnosticsPage.java:21)
-	at com.selenium.tests.TestBase.testDiagnosticspage(TestBase.java:152)
+	at com.selenium.tests.TestBase.testDiagnosticspage(TestBase.java:150)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -736,7 +751,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.getError1(PractoCorporateWellnessPage.java:26)
-	at com.selenium.tests.TestBase.testDisplayError1(TestBase.java:188)
+	at com.selenium.tests.TestBase.testDisplayError1(TestBase.java:186)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -763,7 +778,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.getError2(PractoCorporateWellnessPage.java:43)
-	at com.selenium.tests.TestBase.testDisplayError2(TestBase.java:204)
+	at com.selenium.tests.TestBase.testDisplayError2(TestBase.java:202)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -790,7 +805,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.getError3(PractoCorporateWellnessPage.java:62)
-	at com.selenium.tests.TestBase.testDisplayError3(TestBase.java:221)
+	at com.selenium.tests.TestBase.testDisplayError3(TestBase.java:219)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -817,7 +832,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.getError4(PractoCorporateWellnessPage.java:83)
-	at com.selenium.tests.TestBase.testDisplayError4(TestBase.java:237)
+	at com.selenium.tests.TestBase.testDisplayError4(TestBase.java:235)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -843,8 +858,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.selenium.pages.PractoCorporateWellnessPage.getSuccessMessage(PractoCorporateWellnessPage.java:106)
-	at com.selenium.tests.TestBase.testDisplaySuccessMessage(TestBase.java:252)
+	at com.selenium.pages.PractoCorporateWellnessPage.getSuccessMessage(PractoCorporateWellnessPage.java:105)
+	at com.selenium.tests.TestBase.testDisplaySuccessMessage(TestBase.java:250)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -871,7 +886,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoSearchHospitalsPage.setParking(PractoSearchHospitalsPage.java:36)
-	at com.selenium.tests.TestBase.testFilter(TestBase.java:130)
+	at com.selenium.tests.TestBase.testFilter(TestBase.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -898,7 +913,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoSearchHospitalsPage.filterButton(PractoSearchHospitalsPage.java:30)
-	at com.selenium.tests.TestBase.testFilterButton(TestBase.java:123)
+	at com.selenium.tests.TestBase.testFilterButton(TestBase.java:121)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -928,7 +943,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	at com.selenium.pages.PractoDiagnosticsPage.getTopCities(PractoDiagnosticsPage.java:28)
-	at com.selenium.tests.TestBase.testGetTopCities(TestBase.java:159)
+	at com.selenium.tests.TestBase.testGetTopCities(TestBase.java:157)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -955,7 +970,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
 	at com.selenium.pages.PractoSearchHospitalsPage.findHospsWithRatings(PractoSearchHospitalsPage.java:67)
-	at com.selenium.tests.TestBase.testHospsWithRatings(TestBase.java:145)
+	at com.selenium.tests.TestBase.testHospsWithRatings(TestBase.java:143)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -979,7 +994,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
 	at com.selenium.pages.PractoSearchHospitalsPage.scrollDown(PractoSearchHospitalsPage.java:44)
-	at com.selenium.tests.TestBase.testScroll(TestBase.java:138)
+	at com.selenium.tests.TestBase.testScroll(TestBase.java:136)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -1006,7 +1021,24 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoHomePage.setLocation(PractoHomePage.java:25)
-	at com.selenium.tests.TestBase.testValidDetails(TestBase.java:108)
+	at com.selenium.tests.TestBase.testValidDetails(TestBase.java:106)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteExcelData">
+                  </a> <!-- testWriteExcelData -->
+                  <span class="method-name">testWriteExcelData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.selenium.setup.ExcelUtils.writeExcelData(ExcelUtils.java:67)
+	at com.selenium.tests.TestBase.testWriteExcelData(TestBase.java:272)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -1030,7 +1062,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
 	at com.selenium.pages.PractoCorporateWellnessPage.corporateWellnessPage(PractoCorporateWellnessPage.java:15)
-	at com.selenium.tests.TestBase.testcWellnessPage(TestBase.java:173)
+	at com.selenium.tests.TestBase.testcWellnessPage(TestBase.java:171)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -1057,7 +1089,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.selenium.pages.PractoCorporateWellnessPage.validDetails5(PractoCorporateWellnessPage.java:92)
-	at com.selenium.tests.TestBase.validDetailsCorporateWellness(TestBase.java:245)
+	at com.selenium.tests.TestBase.validDetailsCorporateWellness(TestBase.java:243)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -1371,6 +1403,20 @@ Driver info: driver.version: RemoteWebDriver
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testWriteExcelData">
+                  </a> <!-- testWriteExcelData -->
+                  <span class="method-name">testWriteExcelData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteExcelData">
+                  </a> <!-- testWriteExcelData -->
+                  <span class="method-name">testWriteExcelData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testcWellnessPage">
                   </a> <!-- testcWellnessPage -->
                   <span class="method-name">testcWellnessPage</span>
@@ -1470,233 +1516,233 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(69);
+data.addRows(72);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testcWellnessPage')
+data.setCell(0, 1, 'testScroll')
 data.setCell(0, 2, 'com.selenium.tests.TestBase')
-data.setCell(0, 3, 60193);
+data.setCell(0, 3, 52760);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testScroll')
 data.setCell(1, 2, 'com.selenium.tests.TestBase')
-data.setCell(1, 3, 45410);
+data.setCell(1, 3, 45903);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testScroll')
+data.setCell(2, 1, 'testcWellnessPage')
 data.setCell(2, 2, 'com.selenium.tests.TestBase')
-data.setCell(2, 3, 42712);
+data.setCell(2, 3, 43056);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testDiagnosticspage')
 data.setCell(3, 2, 'com.selenium.tests.TestBase')
-data.setCell(3, 3, 33552);
+data.setCell(3, 3, 38667);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testValidDetails')
+data.setCell(4, 1, 'UrlTesting')
 data.setCell(4, 2, 'com.selenium.tests.TestBase')
-data.setCell(4, 3, 31516);
+data.setCell(4, 3, 38434);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testDiagnosticspage')
 data.setCell(5, 2, 'com.selenium.tests.TestBase')
-data.setCell(5, 3, 29068);
+data.setCell(5, 3, 27214);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testcWellnessPage')
 data.setCell(6, 2, 'com.selenium.tests.TestBase')
-data.setCell(6, 3, 23846);
+data.setCell(6, 3, 24231);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testValidDetails')
 data.setCell(7, 2, 'com.selenium.tests.TestBase')
-data.setCell(7, 3, 19360);
+data.setCell(7, 3, 23101);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'UrlTesting')
+data.setCell(8, 1, 'testValidDetails')
 data.setCell(8, 2, 'com.selenium.tests.TestBase')
-data.setCell(8, 3, 15103);
+data.setCell(8, 3, 20586);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testHospsWithRatings')
+data.setCell(9, 1, 'UrlTesting')
 data.setCell(9, 2, 'com.selenium.tests.TestBase')
-data.setCell(9, 3, 10847);
+data.setCell(9, 3, 15220);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testHospsWithRatings')
 data.setCell(10, 2, 'com.selenium.tests.TestBase')
-data.setCell(10, 3, 7173);
+data.setCell(10, 3, 12310);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'UrlTesting')
+data.setCell(11, 1, 'testHospsWithRatings')
 data.setCell(11, 2, 'com.selenium.tests.TestBase')
-data.setCell(11, 3, 6437);
+data.setCell(11, 3, 9704);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testCondition')
 data.setCell(12, 2, 'com.selenium.tests.TestBase')
-data.setCell(12, 3, 4598);
+data.setCell(12, 3, 6459);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'testFilterButton')
 data.setCell(13, 2, 'com.selenium.tests.TestBase')
-data.setCell(13, 3, 4134);
+data.setCell(13, 3, 5241);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testFilterButton')
 data.setCell(14, 2, 'com.selenium.tests.TestBase')
-data.setCell(14, 3, 3912);
+data.setCell(14, 3, 3839);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'testCondition')
 data.setCell(15, 2, 'com.selenium.tests.TestBase')
-data.setCell(15, 3, 3543);
+data.setCell(15, 3, 3494);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'testFilter')
 data.setCell(16, 2, 'com.selenium.tests.TestBase')
-data.setCell(16, 3, 3366);
+data.setCell(16, 3, 3345);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'testFilter')
 data.setCell(17, 2, 'com.selenium.tests.TestBase')
 data.setCell(17, 3, 3142);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'displayErrorInvalidName')
+data.setCell(18, 1, 'testDisplaySuccessMessage')
 data.setCell(18, 2, 'com.selenium.tests.TestBase')
-data.setCell(18, 3, 1261);
+data.setCell(18, 3, 1219);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testDisplaySuccessMessage')
+data.setCell(19, 1, 'displayErrorInvalidName')
 data.setCell(19, 2, 'com.selenium.tests.TestBase')
-data.setCell(19, 3, 1168);
+data.setCell(19, 3, 1195);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testDisplaySuccessMessage')
+data.setCell(20, 1, 'testGetTopCities')
 data.setCell(20, 2, 'com.selenium.tests.TestBase')
-data.setCell(20, 3, 1086);
+data.setCell(20, 3, 1092);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'displayErrorInvalidName')
+data.setCell(21, 1, 'testDisplaySuccessMessage')
 data.setCell(21, 2, 'com.selenium.tests.TestBase')
-data.setCell(21, 3, 1066);
+data.setCell(21, 3, 1087);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'inValidName')
+data.setCell(22, 1, 'displayErrorInvalidName')
 data.setCell(22, 2, 'com.selenium.tests.TestBase')
-data.setCell(22, 3, 832);
+data.setCell(22, 3, 1069);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'validDetailsCorporateWellness')
 data.setCell(23, 2, 'com.selenium.tests.TestBase')
-data.setCell(23, 3, 799);
+data.setCell(23, 3, 885);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'invalidDetails4')
+data.setCell(24, 1, 'inValidName')
 data.setCell(24, 2, 'com.selenium.tests.TestBase')
-data.setCell(24, 3, 685);
+data.setCell(24, 3, 716);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testGetTopCities')
+data.setCell(25, 1, 'invalidDetails4')
 data.setCell(25, 2, 'com.selenium.tests.TestBase')
-data.setCell(25, 3, 610);
+data.setCell(25, 3, 673);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'testDisplayError1')
+data.setCell(26, 1, 'testWriteExcelData')
 data.setCell(26, 2, 'com.selenium.tests.TestBase')
-data.setCell(26, 3, 546);
+data.setCell(26, 3, 648);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'invalidDetails2')
+data.setCell(27, 1, 'testDisplayError1')
 data.setCell(27, 2, 'com.selenium.tests.TestBase')
-data.setCell(27, 3, 472);
+data.setCell(27, 3, 525);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'invalidDetails3')
 data.setCell(28, 2, 'com.selenium.tests.TestBase')
-data.setCell(28, 3, 465);
+data.setCell(28, 3, 449);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'testGetTopCities')
+data.setCell(29, 1, 'validDetailsCorporateWellness')
 data.setCell(29, 2, 'com.selenium.tests.TestBase')
-data.setCell(29, 3, 461);
+data.setCell(29, 3, 415);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'inValidName')
+data.setCell(30, 1, 'testGetTopCities')
 data.setCell(30, 2, 'com.selenium.tests.TestBase')
-data.setCell(30, 3, 373);
+data.setCell(30, 3, 394);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'validDetailsCorporateWellness')
+data.setCell(31, 1, 'invalidDetails2')
 data.setCell(31, 2, 'com.selenium.tests.TestBase')
-data.setCell(31, 3, 292);
+data.setCell(31, 3, 391);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'invalidDetails4')
+data.setCell(32, 1, 'inValidName')
 data.setCell(32, 2, 'com.selenium.tests.TestBase')
-data.setCell(32, 3, 270);
+data.setCell(32, 3, 337);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'invalidDetails3')
+data.setCell(33, 1, 'testDisplayError1')
 data.setCell(33, 2, 'com.selenium.tests.TestBase')
-data.setCell(33, 3, 230);
+data.setCell(33, 3, 248);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'testDisplayError1')
+data.setCell(34, 1, 'invalidDetails4')
 data.setCell(34, 2, 'com.selenium.tests.TestBase')
-data.setCell(34, 3, 217);
+data.setCell(34, 3, 228);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'invalidDetails2')
+data.setCell(35, 1, 'invalidDetails3')
 data.setCell(35, 2, 'com.selenium.tests.TestBase')
-data.setCell(35, 3, 191);
+data.setCell(35, 3, 218);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'invalidDetails1')
+data.setCell(36, 1, 'invalidDetails2')
 data.setCell(36, 2, 'com.selenium.tests.TestBase')
-data.setCell(36, 3, 123);
+data.setCell(36, 3, 151);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'testDisplayError2')
+data.setCell(37, 1, 'testWriteExcelData')
 data.setCell(37, 2, 'com.selenium.tests.TestBase')
-data.setCell(37, 3, 114);
+data.setCell(37, 3, 127);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'testValidDetails')
+data.setCell(38, 1, 'testDisplayError2')
 data.setCell(38, 2, 'com.selenium.tests.TestBase')
-data.setCell(38, 3, 90);
+data.setCell(38, 3, 124);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'testDisplayError3')
+data.setCell(39, 1, 'invalidDetails1')
 data.setCell(39, 2, 'com.selenium.tests.TestBase')
-data.setCell(39, 3, 74);
+data.setCell(39, 3, 118);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'testDisplayError4')
+data.setCell(40, 1, 'testDisplayError2')
 data.setCell(40, 2, 'com.selenium.tests.TestBase')
-data.setCell(40, 3, 73);
+data.setCell(40, 3, 116);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'testDisplayError4')
+data.setCell(41, 1, 'testDisplayError3')
 data.setCell(41, 2, 'com.selenium.tests.TestBase')
-data.setCell(41, 3, 70);
+data.setCell(41, 3, 73);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'testDisplayError2')
+data.setCell(42, 1, 'invalidDetails2')
 data.setCell(42, 2, 'com.selenium.tests.TestBase')
-data.setCell(42, 3, 65);
+data.setCell(42, 3, 70);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'testDisplayError3')
+data.setCell(43, 1, 'testDisplayError4')
 data.setCell(43, 2, 'com.selenium.tests.TestBase')
-data.setCell(43, 3, 62);
+data.setCell(43, 3, 68);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'invalidDetails1')
+data.setCell(44, 1, 'testValidDetails')
 data.setCell(44, 2, 'com.selenium.tests.TestBase')
-data.setCell(44, 3, 62);
+data.setCell(44, 3, 68);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'invalidDetails1')
+data.setCell(45, 1, 'testDisplayError4')
 data.setCell(45, 2, 'com.selenium.tests.TestBase')
-data.setCell(45, 3, 50);
+data.setCell(45, 3, 66);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'invalidDetails4')
+data.setCell(46, 1, 'testDisplayError3')
 data.setCell(46, 2, 'com.selenium.tests.TestBase')
-data.setCell(46, 3, 50);
+data.setCell(46, 3, 65);
 data.setCell(47, 0, 47)
-data.setCell(47, 1, 'validDetailsCorporateWellness')
+data.setCell(47, 1, 'invalidDetails1')
 data.setCell(47, 2, 'com.selenium.tests.TestBase')
-data.setCell(47, 3, 45);
+data.setCell(47, 3, 59);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'invalidDetails3')
+data.setCell(48, 1, 'invalidDetails1')
 data.setCell(48, 2, 'com.selenium.tests.TestBase')
-data.setCell(48, 3, 43);
+data.setCell(48, 3, 51);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'invalidDetails2')
+data.setCell(49, 1, 'invalidDetails3')
 data.setCell(49, 2, 'com.selenium.tests.TestBase')
-data.setCell(49, 3, 42);
+data.setCell(49, 3, 51);
 data.setCell(50, 0, 50)
-data.setCell(50, 1, 'inValidName')
+data.setCell(50, 1, 'validDetailsCorporateWellness')
 data.setCell(50, 2, 'com.selenium.tests.TestBase')
-data.setCell(50, 3, 37);
+data.setCell(50, 3, 46);
 data.setCell(51, 0, 51)
-data.setCell(51, 1, 'testDisplayError3')
+data.setCell(51, 1, 'testWriteExcelData')
 data.setCell(51, 2, 'com.selenium.tests.TestBase')
-data.setCell(51, 3, 7);
+data.setCell(51, 3, 46);
 data.setCell(52, 0, 52)
-data.setCell(52, 1, 'displayErrorInvalidName')
+data.setCell(52, 1, 'invalidDetails4')
 data.setCell(52, 2, 'com.selenium.tests.TestBase')
-data.setCell(52, 3, 5);
+data.setCell(52, 3, 44);
 data.setCell(53, 0, 53)
-data.setCell(53, 1, 'testCondition')
+data.setCell(53, 1, 'inValidName')
 data.setCell(53, 2, 'com.selenium.tests.TestBase')
-data.setCell(53, 3, 4);
+data.setCell(53, 3, 43);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'testGetTopCities')
+data.setCell(54, 1, 'displayErrorInvalidName')
 data.setCell(54, 2, 'com.selenium.tests.TestBase')
-data.setCell(54, 3, 3);
+data.setCell(54, 3, 7);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'UrlTesting')
+data.setCell(55, 1, 'testScroll')
 data.setCell(55, 2, 'com.selenium.tests.TestBase')
-data.setCell(55, 3, 3);
+data.setCell(55, 3, 4);
 data.setCell(56, 0, 56)
-data.setCell(56, 1, 'testFilterButton')
+data.setCell(56, 1, 'testCondition')
 data.setCell(56, 2, 'com.selenium.tests.TestBase')
 data.setCell(56, 3, 3);
 data.setCell(57, 0, 57)
@@ -1704,54 +1750,66 @@ data.setCell(57, 1, 'testHospsWithRatings')
 data.setCell(57, 2, 'com.selenium.tests.TestBase')
 data.setCell(57, 3, 3);
 data.setCell(58, 0, 58)
-data.setCell(58, 1, 'testDisplayTopCities')
+data.setCell(58, 1, 'UrlTesting')
 data.setCell(58, 2, 'com.selenium.tests.TestBase')
-data.setCell(58, 3, 2);
+data.setCell(58, 3, 3);
 data.setCell(59, 0, 59)
-data.setCell(59, 1, 'testDisplayTopCities')
+data.setCell(59, 1, 'testDisplayError2')
 data.setCell(59, 2, 'com.selenium.tests.TestBase')
-data.setCell(59, 3, 2);
+data.setCell(59, 3, 3);
 data.setCell(60, 0, 60)
-data.setCell(60, 1, 'testDiagnosticspage')
+data.setCell(60, 1, 'testFilterButton')
 data.setCell(60, 2, 'com.selenium.tests.TestBase')
-data.setCell(60, 3, 2);
+data.setCell(60, 3, 3);
 data.setCell(61, 0, 61)
-data.setCell(61, 1, 'testDisplaySuccessMessage')
+data.setCell(61, 1, 'testDisplayError3')
 data.setCell(61, 2, 'com.selenium.tests.TestBase')
-data.setCell(61, 3, 2);
+data.setCell(61, 3, 3);
 data.setCell(62, 0, 62)
-data.setCell(62, 1, 'testDisplayError1')
+data.setCell(62, 1, 'testDisplayTopCities')
 data.setCell(62, 2, 'com.selenium.tests.TestBase')
 data.setCell(62, 3, 2);
 data.setCell(63, 0, 63)
-data.setCell(63, 1, 'testDisplayError4')
+data.setCell(63, 1, 'testDisplayTopCities')
 data.setCell(63, 2, 'com.selenium.tests.TestBase')
-data.setCell(63, 3, 1);
+data.setCell(63, 3, 2);
 data.setCell(64, 0, 64)
-data.setCell(64, 1, 'testScroll')
+data.setCell(64, 1, 'testGetTopCities')
 data.setCell(64, 2, 'com.selenium.tests.TestBase')
-data.setCell(64, 3, 1);
+data.setCell(64, 3, 2);
 data.setCell(65, 0, 65)
-data.setCell(65, 1, 'testFilter')
+data.setCell(65, 1, 'testDisplayError1')
 data.setCell(65, 2, 'com.selenium.tests.TestBase')
-data.setCell(65, 3, 1);
+data.setCell(65, 3, 2);
 data.setCell(66, 0, 66)
-data.setCell(66, 1, 'testDisplayError2')
+data.setCell(66, 1, 'testDisplayError4')
 data.setCell(66, 2, 'com.selenium.tests.TestBase')
-data.setCell(66, 3, 1);
+data.setCell(66, 3, 2);
 data.setCell(67, 0, 67)
-data.setCell(67, 1, 'testcWellnessPage')
+data.setCell(67, 1, 'testDisplaySuccessMessage')
 data.setCell(67, 2, 'com.selenium.tests.TestBase')
-data.setCell(67, 3, 1);
+data.setCell(67, 3, 2);
 data.setCell(68, 0, 68)
-data.setCell(68, 1, 'testDisplayTopCities')
+data.setCell(68, 1, 'testDiagnosticspage')
 data.setCell(68, 2, 'com.selenium.tests.TestBase')
 data.setCell(68, 3, 1);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testcWellnessPage')
+data.setCell(69, 2, 'com.selenium.tests.TestBase')
+data.setCell(69, 3, 1);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testFilter')
+data.setCell(70, 2, 'com.selenium.tests.TestBase')
+data.setCell(70, 3, 1);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testDisplayTopCities')
+data.setCell(71, 2, 'com.selenium.tests.TestBase')
+data.setCell(71, 3, 1);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -1784,645 +1842,671 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">318 ms</span>
+                <span class="method-start">386 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UrlTesting</span>
-                <span class="method-start">10915 ms</span>
+                <span class="method-start">8478 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=UrlTesting status=SUCCESS method=TestBase.UrlTesting()[pri:0, instance:com.selenium...)</span>
-                <span class="method-start">17361 ms</span>
+                <span class="method-start">46918 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testValidDetails</span>
-                <span class="method-start">17606 ms</span>
+                <span class="method-start">47045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testValidDetails status=SUCCESS method=TestBase.testValidDetails()[pri:1, instance:...)</span>
-                <span class="method-start">36971 ms</span>
+                <span class="method-start">70150 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testCondition</span>
-                <span class="method-start">36975 ms</span>
+                <span class="method-start">70153 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testCondition status=SUCCESS method=TestBase.testCondition()[pri:2, instance:com.se...)</span>
-                <span class="method-start">41576 ms</span>
+                <span class="method-start">76615 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testFilterButton</span>
-                <span class="method-start">41578 ms</span>
+                <span class="method-start">76618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilterButton status=SUCCESS method=TestBase.testFilterButton()[pri:3, instance:...)</span>
-                <span class="method-start">45714 ms</span>
+                <span class="method-start">81863 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testFilter</span>
-                <span class="method-start">45718 ms</span>
+                <span class="method-start">81868 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilter status=SUCCESS method=TestBase.testFilter()[pri:4, instance:com.selenium...)</span>
-                <span class="method-start">48865 ms</span>
+                <span class="method-start">85013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testScroll</span>
-                <span class="method-start">48874 ms</span>
+                <span class="method-start">85017 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testScroll status=SUCCESS method=TestBase.testScroll()[pri:5, instance:com.selenium...)</span>
-                <span class="method-start">94285 ms</span>
+                <span class="method-start">137780 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testHospsWithRatings</span>
-                <span class="method-start">94287 ms</span>
+                <span class="method-start">137782 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testHospsWithRatings status=SUCCESS method=TestBase.testHospsWithRatings()[pri:6, i...)</span>
-                <span class="method-start">105138 ms</span>
+                <span class="method-start">150096 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDiagnosticspage</span>
-                <span class="method-start">105143 ms</span>
+                <span class="method-start">150103 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDiagnosticspage status=SUCCESS method=TestBase.testDiagnosticspage()[pri:7, ins...)</span>
-                <span class="method-start">134215 ms</span>
+                <span class="method-start">188773 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testGetTopCities</span>
-                <span class="method-start">134218 ms</span>
+                <span class="method-start">188774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testGetTopCities status=SUCCESS method=TestBase.testGetTopCities()[pri:8, instance:...)</span>
-                <span class="method-start">134830 ms</span>
+                <span class="method-start">189868 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayTopCities</span>
-                <span class="method-start">134831 ms</span>
+                <span class="method-start">189870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayTopCities status=SUCCESS method=TestBase.testDisplayTopCities()[pri:9, i...)</span>
-                <span class="method-start">134834 ms</span>
+                <span class="method-start">189873 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testcWellnessPage</span>
-                <span class="method-start">134835 ms</span>
+                <span class="method-start">189875 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testcWellnessPage status=SUCCESS method=TestBase.testcWellnessPage()[pri:10, instan...)</span>
-                <span class="method-start">158683 ms</span>
+                <span class="method-start">232933 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails1</span>
-                <span class="method-start">158685 ms</span>
+                <span class="method-start">232937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails1 status=SUCCESS method=TestBase.invalidDetails1()[pri:11, instance:c...)</span>
-                <span class="method-start">158813 ms</span>
+                <span class="method-start">233060 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError1</span>
-                <span class="method-start">158820 ms</span>
+                <span class="method-start">233063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError1 status=SUCCESS method=TestBase.testDisplayError1()[pri:12, instan...)</span>
-                <span class="method-start">159040 ms</span>
+                <span class="method-start">233315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails2</span>
-                <span class="method-start">159043 ms</span>
+                <span class="method-start">233317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails2 status=SUCCESS method=TestBase.invalidDetails2()[pri:13, instance:c...)</span>
-                <span class="method-start">159516 ms</span>
+                <span class="method-start">233710 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError2</span>
-                <span class="method-start">159517 ms</span>
+                <span class="method-start">233711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError2 status=SUCCESS method=TestBase.testDisplayError2()[pri:14, instan...)</span>
-                <span class="method-start">159584 ms</span>
+                <span class="method-start">233837 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails3</span>
-                <span class="method-start">159589 ms</span>
+                <span class="method-start">233840 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails3 status=SUCCESS method=TestBase.invalidDetails3()[pri:15, instance:c...)</span>
-                <span class="method-start">160056 ms</span>
+                <span class="method-start">234290 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError3</span>
-                <span class="method-start">160058 ms</span>
+                <span class="method-start">234294 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError3 status=SUCCESS method=TestBase.testDisplayError3()[pri:16, instan...)</span>
-                <span class="method-start">160134 ms</span>
+                <span class="method-start">234369 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails4</span>
-                <span class="method-start">160137 ms</span>
+                <span class="method-start">234372 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails4 status=SUCCESS method=TestBase.invalidDetails4()[pri:17, instance:c...)</span>
-                <span class="method-start">160824 ms</span>
+                <span class="method-start">235046 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError4</span>
-                <span class="method-start">160826 ms</span>
+                <span class="method-start">235048 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError4 status=SUCCESS method=TestBase.testDisplayError4()[pri:18, instan...)</span>
-                <span class="method-start">160900 ms</span>
+                <span class="method-start">235117 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">validDetailsCorporateWellness</span>
-                <span class="method-start">160902 ms</span>
+                <span class="method-start">235120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validDetailsCorporateWellness status=SUCCESS method=TestBase.validDetailsCorporateW...)</span>
-                <span class="method-start">161702 ms</span>
+                <span class="method-start">236006 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplaySuccessMessage</span>
-                <span class="method-start">161703 ms</span>
+                <span class="method-start">236008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplaySuccessMessage status=SUCCESS method=TestBase.testDisplaySuccessMessage(...)</span>
-                <span class="method-start">162795 ms</span>
+                <span class="method-start">237098 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">inValidName</span>
-                <span class="method-start">162797 ms</span>
+                <span class="method-start">237101 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=inValidName status=SUCCESS method=TestBase.inValidName()[pri:21, instance:com.selen...)</span>
-                <span class="method-start">163630 ms</span>
+                <span class="method-start">237818 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayErrorInvalidName</span>
-                <span class="method-start">163632 ms</span>
+                <span class="method-start">237820 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=displayErrorInvalidName status=FAILURE method=TestBase.displayErrorInvalidName()[pr...)</span>
-                <span class="method-start">164720 ms</span>
+                <span class="method-start">238930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testWriteExcelData</span>
+                <span class="method-start">238933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWriteExcelData status=SUCCESS method=TestBase.testWriteExcelData()[pri:23, inst...)</span>
+                <span class="method-start">239587 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">164723 ms</span>
+                <span class="method-start">239589 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">166035 ms</span>
+                <span class="method-start">241574 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">startReport(edge)</span>
-                <span class="method-start">167376 ms</span>
+                <span class="method-start">242682 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(edge)</span>
-                <span class="method-start">167380 ms</span>
+                <span class="method-start">242685 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UrlTesting</span>
-                <span class="method-start">182964 ms</span>
+                <span class="method-start">250117 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=UrlTesting status=FAILURE method=TestBase.UrlTesting()[pri:0, instance:com.selenium...)</span>
-                <span class="method-start">182972 ms</span>
+                <span class="method-start">250124 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testValidDetails</span>
-                <span class="method-start">182975 ms</span>
+                <span class="method-start">250125 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testValidDetails status=FAILURE method=TestBase.testValidDetails()[pri:1, instance:...)</span>
-                <span class="method-start">183068 ms</span>
+                <span class="method-start">250196 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCondition</span>
-                <span class="method-start">183077 ms</span>
+                <span class="method-start">250208 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testCondition status=FAILURE method=TestBase.testCondition()[pri:2, instance:com.se...)</span>
-                <span class="method-start">183087 ms</span>
+                <span class="method-start">250225 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFilterButton</span>
-                <span class="method-start">183093 ms</span>
+                <span class="method-start">250228 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilterButton status=FAILURE method=TestBase.testFilterButton()[pri:3, instance:...)</span>
-                <span class="method-start">183099 ms</span>
+                <span class="method-start">250246 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFilter</span>
-                <span class="method-start">183107 ms</span>
+                <span class="method-start">250250 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilter status=FAILURE method=TestBase.testFilter()[pri:4, instance:com.selenium...)</span>
-                <span class="method-start">183127 ms</span>
+                <span class="method-start">250267 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testScroll</span>
-                <span class="method-start">183134 ms</span>
+                <span class="method-start">250278 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testScroll status=FAILURE method=TestBase.testScroll()[pri:5, instance:com.selenium...)</span>
-                <span class="method-start">183141 ms</span>
+                <span class="method-start">250286 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testHospsWithRatings</span>
-                <span class="method-start">183144 ms</span>
+                <span class="method-start">250293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testHospsWithRatings status=FAILURE method=TestBase.testHospsWithRatings()[pri:6, i...)</span>
-                <span class="method-start">183152 ms</span>
+                <span class="method-start">250300 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDiagnosticspage</span>
-                <span class="method-start">183156 ms</span>
+                <span class="method-start">250305 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDiagnosticspage status=FAILURE method=TestBase.testDiagnosticspage()[pri:7, ins...)</span>
-                <span class="method-start">183165 ms</span>
+                <span class="method-start">250319 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testGetTopCities</span>
-                <span class="method-start">183171 ms</span>
+                <span class="method-start">250324 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testGetTopCities status=FAILURE method=TestBase.testGetTopCities()[pri:8, instance:...)</span>
-                <span class="method-start">183187 ms</span>
+                <span class="method-start">250337 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayTopCities</span>
-                <span class="method-start">183193 ms</span>
+                <span class="method-start">250339 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayTopCities status=SUCCESS method=TestBase.testDisplayTopCities()[pri:9, i...)</span>
-                <span class="method-start">183196 ms</span>
+                <span class="method-start">250349 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testcWellnessPage</span>
-                <span class="method-start">183198 ms</span>
+                <span class="method-start">250350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testcWellnessPage status=FAILURE method=TestBase.testcWellnessPage()[pri:10, instan...)</span>
-                <span class="method-start">183203 ms</span>
+                <span class="method-start">250353 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails1</span>
-                <span class="method-start">183207 ms</span>
+                <span class="method-start">250355 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails1 status=SUCCESS method=TestBase.invalidDetails1()[pri:11, instance:c...)</span>
-                <span class="method-start">183258 ms</span>
+                <span class="method-start">250414 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDisplayError1</span>
-                <span class="method-start">183261 ms</span>
+                <span class="method-start">250417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError1 status=FAILURE method=TestBase.testDisplayError1()[pri:12, instan...)</span>
-                <span class="method-start">183274 ms</span>
+                <span class="method-start">250423 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidDetails2</span>
-                <span class="method-start">183277 ms</span>
+                <span class="method-start">250425 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails2 status=FAILURE method=TestBase.invalidDetails2()[pri:13, instance:c...)</span>
-                <span class="method-start">183322 ms</span>
+                <span class="method-start">250497 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDisplayError2</span>
-                <span class="method-start">183324 ms</span>
+                <span class="method-start">250510 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError2 status=FAILURE method=TestBase.testDisplayError2()[pri:14, instan...)</span>
-                <span class="method-start">183327 ms</span>
+                <span class="method-start">250520 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidDetails3</span>
-                <span class="method-start">183340 ms</span>
+                <span class="method-start">250522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails3 status=FAILURE method=TestBase.invalidDetails3()[pri:15, instance:c...)</span>
-                <span class="method-start">183387 ms</span>
+                <span class="method-start">250585 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDisplayError3</span>
-                <span class="method-start">183389 ms</span>
+                <span class="method-start">250587 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError3 status=FAILURE method=TestBase.testDisplayError3()[pri:16, instan...)</span>
-                <span class="method-start">183397 ms</span>
+                <span class="method-start">250602 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidDetails4</span>
-                <span class="method-start">183400 ms</span>
+                <span class="method-start">250604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails4 status=FAILURE method=TestBase.invalidDetails4()[pri:17, instance:c...)</span>
-                <span class="method-start">183452 ms</span>
+                <span class="method-start">250650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDisplayError4</span>
-                <span class="method-start">183457 ms</span>
+                <span class="method-start">250657 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError4 status=FAILURE method=TestBase.testDisplayError4()[pri:18, instan...)</span>
-                <span class="method-start">183460 ms</span>
+                <span class="method-start">250662 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validDetailsCorporateWellness</span>
-                <span class="method-start">183467 ms</span>
+                <span class="method-start">250664 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validDetailsCorporateWellness status=FAILURE method=TestBase.validDetailsCorporateW...)</span>
-                <span class="method-start">183515 ms</span>
+                <span class="method-start">250712 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDisplaySuccessMessage</span>
-                <span class="method-start">183517 ms</span>
+                <span class="method-start">250716 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplaySuccessMessage status=FAILURE method=TestBase.testDisplaySuccessMessage(...)</span>
-                <span class="method-start">183526 ms</span>
+                <span class="method-start">250720 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">inValidName</span>
-                <span class="method-start">183528 ms</span>
+                <span class="method-start">250736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=inValidName status=FAILURE method=TestBase.inValidName()[pri:21, instance:com.selen...)</span>
-                <span class="method-start">183568 ms</span>
+                <span class="method-start">250781 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayErrorInvalidName</span>
-                <span class="method-start">183573 ms</span>
+                <span class="method-start">250783 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=displayErrorInvalidName status=FAILURE method=TestBase.displayErrorInvalidName()[pr...)</span>
-                <span class="method-start">183583 ms</span>
+                <span class="method-start">250792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWriteExcelData</span>
+                <span class="method-start">250794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWriteExcelData status=FAILURE method=TestBase.testWriteExcelData()[pri:23, inst...)</span>
+                <span class="method-start">250841 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">183589 ms</span>
+                <span class="method-start">250843 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">183590 ms</span>
+                <span class="method-start">250845 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">startReport(firefox)</span>
-                <span class="method-start">183813 ms</span>
+                <span class="method-start">251091 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">183817 ms</span>
+                <span class="method-start">251097 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UrlTesting</span>
-                <span class="method-start">209941 ms</span>
+                <span class="method-start">264866 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=UrlTesting status=SUCCESS method=TestBase.UrlTesting()[pri:0, instance:com.selenium...)</span>
-                <span class="method-start">225045 ms</span>
+                <span class="method-start">280088 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testValidDetails</span>
-                <span class="method-start">225047 ms</span>
+                <span class="method-start">280089 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testValidDetails status=SUCCESS method=TestBase.testValidDetails()[pri:1, instance:...)</span>
-                <span class="method-start">256565 ms</span>
+                <span class="method-start">300677 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testCondition</span>
-                <span class="method-start">256567 ms</span>
+                <span class="method-start">300683 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testCondition status=SUCCESS method=TestBase.testCondition()[pri:2, instance:com.se...)</span>
-                <span class="method-start">260111 ms</span>
+                <span class="method-start">304178 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testFilterButton</span>
-                <span class="method-start">260113 ms</span>
+                <span class="method-start">304182 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilterButton status=SUCCESS method=TestBase.testFilterButton()[pri:3, instance:...)</span>
-                <span class="method-start">264026 ms</span>
+                <span class="method-start">308022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testFilter</span>
-                <span class="method-start">264030 ms</span>
+                <span class="method-start">308024 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testFilter status=SUCCESS method=TestBase.testFilter()[pri:4, instance:com.selenium...)</span>
-                <span class="method-start">267396 ms</span>
+                <span class="method-start">311370 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testScroll</span>
-                <span class="method-start">267398 ms</span>
+                <span class="method-start">311372 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testScroll status=SUCCESS method=TestBase.testScroll()[pri:5, instance:com.selenium...)</span>
-                <span class="method-start">310112 ms</span>
+                <span class="method-start">357278 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testHospsWithRatings</span>
-                <span class="method-start">310114 ms</span>
+                <span class="method-start">357281 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testHospsWithRatings status=SUCCESS method=TestBase.testHospsWithRatings()[pri:6, i...)</span>
-                <span class="method-start">317288 ms</span>
+                <span class="method-start">366986 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDiagnosticspage</span>
-                <span class="method-start">317290 ms</span>
+                <span class="method-start">366988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDiagnosticspage status=SUCCESS method=TestBase.testDiagnosticspage()[pri:7, ins...)</span>
-                <span class="method-start">350844 ms</span>
+                <span class="method-start">394204 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testGetTopCities</span>
-                <span class="method-start">350845 ms</span>
+                <span class="method-start">394206 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testGetTopCities status=SUCCESS method=TestBase.testGetTopCities()[pri:8, instance:...)</span>
-                <span class="method-start">351307 ms</span>
+                <span class="method-start">394601 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayTopCities</span>
-                <span class="method-start">351309 ms</span>
+                <span class="method-start">394603 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayTopCities status=SUCCESS method=TestBase.testDisplayTopCities()[pri:9, i...)</span>
-                <span class="method-start">351311 ms</span>
+                <span class="method-start">394605 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testcWellnessPage</span>
-                <span class="method-start">351312 ms</span>
+                <span class="method-start">394607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testcWellnessPage status=SUCCESS method=TestBase.testcWellnessPage()[pri:10, instan...)</span>
-                <span class="method-start">411508 ms</span>
+                <span class="method-start">418842 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails1</span>
-                <span class="method-start">411510 ms</span>
+                <span class="method-start">418848 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails1 status=SUCCESS method=TestBase.invalidDetails1()[pri:11, instance:c...)</span>
-                <span class="method-start">411573 ms</span>
+                <span class="method-start">418909 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError1</span>
-                <span class="method-start">411575 ms</span>
+                <span class="method-start">418913 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError1 status=SUCCESS method=TestBase.testDisplayError1()[pri:12, instan...)</span>
-                <span class="method-start">412123 ms</span>
+                <span class="method-start">419440 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails2</span>
-                <span class="method-start">412126 ms</span>
+                <span class="method-start">419441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails2 status=SUCCESS method=TestBase.invalidDetails2()[pri:13, instance:c...)</span>
-                <span class="method-start">412318 ms</span>
+                <span class="method-start">419593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError2</span>
-                <span class="method-start">412323 ms</span>
+                <span class="method-start">419594 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError2 status=SUCCESS method=TestBase.testDisplayError2()[pri:14, instan...)</span>
-                <span class="method-start">412438 ms</span>
+                <span class="method-start">419711 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails3</span>
-                <span class="method-start">412441 ms</span>
+                <span class="method-start">419713 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails3 status=SUCCESS method=TestBase.invalidDetails3()[pri:15, instance:c...)</span>
-                <span class="method-start">412672 ms</span>
+                <span class="method-start">419933 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError3</span>
-                <span class="method-start">412674 ms</span>
+                <span class="method-start">419936 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError3 status=SUCCESS method=TestBase.testDisplayError3()[pri:16, instan...)</span>
-                <span class="method-start">412737 ms</span>
+                <span class="method-start">420002 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidDetails4</span>
-                <span class="method-start">412738 ms</span>
+                <span class="method-start">420003 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidDetails4 status=SUCCESS method=TestBase.invalidDetails4()[pri:17, instance:c...)</span>
-                <span class="method-start">413010 ms</span>
+                <span class="method-start">420232 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplayError4</span>
-                <span class="method-start">413012 ms</span>
+                <span class="method-start">420234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplayError4 status=SUCCESS method=TestBase.testDisplayError4()[pri:18, instan...)</span>
-                <span class="method-start">413083 ms</span>
+                <span class="method-start">420301 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">validDetailsCorporateWellness</span>
-                <span class="method-start">413084 ms</span>
+                <span class="method-start">420307 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validDetailsCorporateWellness status=SUCCESS method=TestBase.validDetailsCorporateW...)</span>
-                <span class="method-start">413377 ms</span>
+                <span class="method-start">420723 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDisplaySuccessMessage</span>
-                <span class="method-start">413380 ms</span>
+                <span class="method-start">420724 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testDisplaySuccessMessage status=SUCCESS method=TestBase.testDisplaySuccessMessage(...)</span>
-                <span class="method-start">414549 ms</span>
+                <span class="method-start">421944 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">inValidName</span>
-                <span class="method-start">414551 ms</span>
+                <span class="method-start">421946 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=inValidName status=SUCCESS method=TestBase.inValidName()[pri:21, instance:com.selen...)</span>
-                <span class="method-start">414925 ms</span>
+                <span class="method-start">422284 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">displayErrorInvalidName</span>
-                <span class="method-start">414927 ms</span>
+                <span class="method-start">422286 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=displayErrorInvalidName status=FAILURE method=TestBase.displayErrorInvalidName()[pr...)</span>
-                <span class="method-start">416191 ms</span>
+                <span class="method-start">423484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testWriteExcelData</span>
+                <span class="method-start">423486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWriteExcelData status=SUCCESS method=TestBase.testWriteExcelData()[pri:23, inst...)</span>
+                <span class="method-start">423624 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">416192 ms</span>
+                <span class="method-start">423625 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">420406 ms</span>
+                <span class="method-start">428735 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

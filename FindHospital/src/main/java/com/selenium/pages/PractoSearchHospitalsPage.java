@@ -66,10 +66,9 @@ public class PractoSearchHospitalsPage {
 		ArrayList<Double> ratings=new ArrayList<Double>();
 		List<WebElement> names=driver.findElements(By.xpath("//span[@class='common__star-rating__value']/ancestor::div[@class='pure-u-6-24']/preceding-sibling::div[@class='pure-u-18-24']/descendant::h2[@class='u-title-font u-c-pointer u-bold']"));
 		List<WebElement> stars=driver.findElements(By.xpath("//span[@class='common__star-rating__value']"));
-
+		int c=0;
 		for(int i=1;i<names.size();i++) {
 			String value=names.get(i).getText();
-
 			String numtemp=stars.get(i).getText();
 			NumberFormat nf = NumberFormat.getInstance();
 			double num;
@@ -78,8 +77,8 @@ public class PractoSearchHospitalsPage {
 				if(num>3.5) {
 					hosps.add(value);
 					ratings.add(num);
-					int j=i;
-					System.out.print(j+". ");
+					c++;
+					System.out.print(c+". ");
 					System.out.print("Hospital Name: "+value);
 					System.out.println(" Rating: "+num);
 				}

@@ -31,17 +31,19 @@ import com.selenium.setup.UrlSetup;
 public class TestBase {
 	
 	public static WebDriver driver;
-	public static String[] rslt = null;
+	public String[] rslt = null;
 	public static String url="https://www.practo.com/";
 	ExtentHtmlReporter htmlReporter;
-	ExtentReports extent;
-	ExtentTest test;
+	 ExtentReports extent;
+	 ExtentTest test;
+	 
 	PractoHomePage practohomepage;
 	PractoSearchHospitalsPage searchpage;
 	PractoDiagnosticsPage diagnosticspage;
 	PractoCorporateWellnessPage corporatewellness;
 	UrlSetup urlSetup;
 	DriverSetup ds;
+	
 	
 	//Entering the defined browser
 	@BeforeClass
@@ -73,19 +75,15 @@ public class TestBase {
 	@Parameters("browser")
 	public void startReport(String browser) {
 		 // start reporters
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport.html");;	    
-	    extent = new ExtentReports();
-	    extent.attachReporter(htmlReporter);  // create ExtentReports and attach reporter(s)
-	    extent.setSystemInfo("User Name","Team 1");
-	    extent.setSystemInfo("Company", "CTS");
-	    extent.setSystemInfo("OS", "Windows");
-	    extent.setSystemInfo("Browser", browser);
-	    htmlReporter.config().setChartVisibilityOnOpen(true);
-	    htmlReporter.config().setDocumentTitle("Extent Report");
-	    htmlReporter.config().setReportName("Test Report");
-	    htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
-	    htmlReporter.config().setTheme(Theme.STANDARD);
-	    htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+		 htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/STMExtentReport"+browser+".html");
+		 extent = new ExtentReports ();
+		 extent.attachReporter(htmlReporter);
+		 extent.setSystemInfo("User Name", "ClinicPlus");
+		 
+		 htmlReporter.config().setDocumentTitle("CTS Hackathon");
+		 htmlReporter.config().setReportName("Automation testing on www.practo.com");
+		 htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+		 htmlReporter.config().setTheme(Theme.STANDARD);
 	}
 	
 	public static String[][] getExcelData() throws Exception {
@@ -267,6 +265,14 @@ public class TestBase {
 		String error=corporatewellness.getNameErrorMessage();
 		Assert.assertEquals(error,"Please Enter Name" , "Invalid Name test case Passed");
 	}
+	
+	@Test(priority=23)
+	public void testWriteExcelData() throws IOException {
+		test = extent.createTest("Test Case 24", "write on Excel sheet");
+		ExcelUtils.writeExcelData(rslt);
+		System.out.println(rslt[2]);
+	}
+	
 	@AfterMethod
 	 public void tearDown(ITestResult result) throws IOException {
 	  if (result.getStatus() == ITestResult.FAILURE) {
