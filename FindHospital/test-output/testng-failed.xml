@@ -6,30 +6,10 @@
     <classes>
       <class name="com.selenium.tests.TestBase">
         <methods>
-          <include name="inValidName"/>
-          <include name="setUp"/>
-          <include name="testDisplayError4"/>
-          <include name="testDiagnosticspage"/>
-          <include name="testHospsWithRatings"/>
-          <include name="testValidDetails"/>
-          <include name="validDetailsCorporateWellness"/>
           <include name="startReport"/>
-          <include name="testFilterButton"/>
-          <include name="UrlTesting"/>
-          <include name="closeBrowser"/>
-          <include name="testFilter"/>
-          <include name="testcWellnessPage"/>
-          <include name="testDisplayError3"/>
-          <include name="testDisplayError1"/>
-          <include name="testDisplayError2"/>
-          <include name="testCondition"/>
-          <include name="invalidDetails4"/>
           <include name="displayErrorInvalidName"/>
-          <include name="invalidDetails3"/>
-          <include name="testScroll"/>
-          <include name="invalidDetails2"/>
-          <include name="testGetTopCities"/>
-          <include name="testDisplaySuccessMessage"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
@@ -76,30 +56,10 @@
     <classes>
       <class name="com.selenium.tests.TestBase">
         <methods>
-          <include name="inValidName"/>
-          <include name="setUp"/>
-          <include name="testDisplayError4"/>
-          <include name="testDiagnosticspage"/>
-          <include name="testHospsWithRatings"/>
-          <include name="testValidDetails"/>
-          <include name="validDetailsCorporateWellness"/>
           <include name="startReport"/>
-          <include name="testFilterButton"/>
-          <include name="UrlTesting"/>
-          <include name="closeBrowser"/>
-          <include name="testFilter"/>
-          <include name="testcWellnessPage"/>
-          <include name="testDisplayError3"/>
-          <include name="testDisplayError1"/>
-          <include name="testDisplayError2"/>
-          <include name="testCondition"/>
-          <include name="invalidDetails4"/>
           <include name="displayErrorInvalidName"/>
-          <include name="invalidDetails3"/>
-          <include name="testScroll"/>
-          <include name="invalidDetails2"/>
-          <include name="testGetTopCities"/>
-          <include name="testDisplaySuccessMessage"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
